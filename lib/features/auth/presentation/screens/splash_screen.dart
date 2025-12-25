@@ -1,3 +1,4 @@
+import 'package:crafty_bay/app/extensions/localization_extension.dart';
 import 'package:crafty_bay/app/providers/language_provider.dart';
 import 'package:crafty_bay/features/common/presentation/widgets/language_selector.dart';
 import 'package:crafty_bay/l10n/app_localizations.dart';
@@ -20,7 +21,7 @@ class _SplashScreenState extends State<SplashScreen> {
       body: Column(
         mainAxisAlignment: .center,
         children: [
-          Center(child: Text(AppLocalizations.of(context)!.home)),
+          Center(child: Text(context.localizatons.home)),
           SizedBox(height: 30,),
           Row(
             mainAxisAlignment: .spaceAround,
