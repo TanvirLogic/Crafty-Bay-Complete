@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "983736376346",
+    "project_id": "flutter-ecommerce-4beda",
+    "storage_bucket": "flutter-ecommerce-4beda.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:983736376346:android:b94c09e1249ff34d8285a3",
+        "android_client_info": {
+          "package_name": "com.example.crafty_bay"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC0c8GLKq0k1GC170lB0iXK1l0LBoSc4a8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

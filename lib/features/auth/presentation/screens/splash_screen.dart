@@ -1,9 +1,9 @@
-import 'package:crafty_bay/app/extensions/localization_extension.dart';
-import 'package:crafty_bay/app/providers/language_provider.dart';
-import 'package:crafty_bay/features/common/presentation/widgets/language_selector.dart';
-import 'package:crafty_bay/l10n/app_localizations.dart';
+import 'package:crafty_bay/app/asset_paths.dart';
+import 'package:crafty_bay/features/auth/presentation/screens/sign_up_screen.dart';
 import 'package:flutter/material.dart';
-import 'package:provider/provider.dart';
+import 'package:flutter_svg/flutter_svg.dart';
+
+import '../widgets/app_logo.dart';
 
 class SplashScreen extends StatefulWidget {
   const SplashScreen({super.key});
@@ -16,24 +16,37 @@ class SplashScreen extends StatefulWidget {
 
 class _SplashScreenState extends State<SplashScreen> {
   @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: Column(
-        mainAxisAlignment: .center,
-        children: [
-          Center(child: Text(context.localizatons.home)),
-          SizedBox(height: 30,),
-          Row(
-            mainAxisAlignment: .spaceAround,
-            children: [
-              Text(AppLocalizations.of(context)!.changeLanguage),
-              LanguageSelector(),
-            ],
-          ),
-        ],
-      ),
+  void initState() {
+    nextScreen();
+    super.initState();
+  }
+
+  Future<void> nextScreen() async {
+    await Future.delayed(Duration(seconds: 3));
+    Navigator.pushNamedAndRemoveUntil(
+      context,
+      SignUpScreen.name,
+      (route) => false,
     );
   }
 
-  _onPressedChangeLanguageButton() {}
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: Center(
+        child: Column(
+          mainAxisAlignment: .center,
+          children: [
+            Spacer(),
+            AppLogoWidget(),
+            Spacer(),
+            CircularProgressIndicator(),
+            SizedBox(height: 100),
+          ],
+        ),
+      ),
+    );
+  }
 }
+
+

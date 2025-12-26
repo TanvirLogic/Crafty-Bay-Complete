@@ -1,5 +1,4 @@
-{
-  "@@locale": "en",
+{ "@@locale": "en",
   "appTitle": "My Application",
   "ok": "OK",
   "cancel": "Cancel",
@@ -45,7 +44,38 @@
   "version": "Version",
 
   "welcomeMessage": "Welcome back !",
-
+  "getStarted": "Get started with your details",
   "confirmDelete": "Are you sure you want to delete this?",
-  "exitApp": "Press back again to exit"
+  "exitApp": "Press back again to exit",
+  "registration": "Registration",
+  "createAccount": "Create Account",
+  "signUp" : "Sign Up",
+
+  "firstName": "First Name",
+  "lastName": "Last Name",
+  "fullName": "Full Name",
+  "emailAddress": "Email Address",
+  "confirmPassword": "Confirm Password",
+  "gender": "Gender",
+  "dateOfBirth": "Date of Birth",
+  "address": "Address",
+
+  "firstNameHint": "Enter your first name",
+  "lastNameHint": "Enter your last name",
+  "emailHint": "example@mail.com",
+  "phoneHint": "01XXXXXXXXX",
+  "passwordHint": "Enter a strong password",
+  "confirmPasswordHint": "Re-enter your password",
+
+  "validationRequired": "This field is required",
+  "validationEmail": "Please enter a valid email address",
+  "validationPhone": "Please enter a valid phone number",
+  "validationPasswordLength": "Password must be at least 6 characters",
+  "validationPasswordMatch": "Passwords do not match",
+  "validationFirstName": "Please enter your first name",
+  "validationLastName": "Please enter your last name",
+
+  "agreeToTerms": "I agree to the Terms and Conditions",
+  "submit": "Submit",
+  "registerNow": "Register Now"
 }

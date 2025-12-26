@@ -1,4 +1,4 @@
-{
+{ "@@locale": "bn",
   "appTitle": "আমার অ্যাপ্লিকেশন",
 
   "ok": "ঠিক আছে",
@@ -18,12 +18,10 @@
   "logout": "লগআউট",
   "register": "নিবন্ধন",
   "email": "ইমেইল",
-  "password": "পাসওয়ার্ড",
   "forgotPassword": "পাসওয়ার্ড ভুলে গেছেন?",
   "dontHaveAccount": "অ্যাকাউন্ট নেই?",
   "alreadyHaveAccount": "অ্যাকাউন্ট আছে?",
   "username": "ব্যবহারকারীর নাম",
-  "phoneNumber": "ফোন নম্বর",
   "changeLanguage": "ভাষা পরিবর্তন করুন",
 
   "home": "হোম",
@@ -43,8 +41,43 @@
   "privacyPolicy": "গোপনীয়তা নীতি",
   "termsConditions": "শর্তাবলী",
   "version": "ভার্সন",
-
+  "signUp" : "Sign Up",
   "welcomeMessage": "স্বাগতম !",
+  "getStarted": "শুরু করুন",
   "confirmDelete": "আপনি কি এটি মুছে ফেলার ব্যাপারে নিশ্চিত?",
-  "exitApp": "বের হতে আবার ব্যাক বাটন চাপুন"
+  "exitApp": "বের হতে আবার ব্যাক বাটন চাপুন",
+
+
+  "registration": "নিবন্ধন",
+  "createAccount": "অ্যাকাউন্ট তৈরি করুন",
+
+  "firstName": "প্রথম নাম",
+  "lastName": "শেষ নাম",
+  "fullName": "পুরো নাম",
+  "emailAddress": "ইমেইল ঠিকানা",
+  "phoneNumber": "ফোন নম্বর",
+  "password": "পাসওয়ার্ড",
+  "confirmPassword": "পাসওয়ার্ড নিশ্চিত করুন",
+  "gender": "লিঙ্গ",
+  "dateOfBirth": "জন্ম তারিখ",
+  "address": "ঠিকানা",
+
+  "firstNameHint": "আপনার প্রথম নাম লিখুন",
+  "lastNameHint": "আপনার শেষ নাম লিখুন",
+  "emailHint": "example@mail.com",
+  "phoneHint": "০১XXXXXXXXX",
+  "passwordHint": "একটি শক্তিশালী পাসওয়ার্ড দিন",
+  "confirmPasswordHint": "পাসওয়ার্ডটি আবার লিখুন",
+
+  "validationRequired": "এই ঘরটি পূরণ করা আবশ্যক",
+  "validationEmail": "অনুগ্রহ করে সঠিক ইমেইল ঠিকানা দিন",
+  "validationPhone": "অনুগ্রহ করে সঠিক ফোন নম্বর দিন",
+  "validationPasswordLength": "পাসওয়ার্ড কমপক্ষে ৬ অক্ষরের হতে হবে",
+  "validationPasswordMatch": "পাসওয়ার্ড দুটি মেলেনি",
+  "validationFirstName": "অনুগ্রহ করে আপনার প্রথম নাম লিখুন",
+  "validationLastName": "অনুগ্রহ করে আপনার শেষ নাম লিখুন",
+
+  "agreeToTerms": "আমি শর্তাবলীর সাথে একমত",
+  "submit": "জমা দিন",
+  "registerNow": "নিবন্ধন করুন"
 }
