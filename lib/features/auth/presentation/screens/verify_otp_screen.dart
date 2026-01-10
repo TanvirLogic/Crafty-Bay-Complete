@@ -1,11 +1,11 @@
 import 'package:crafty_bay/app/extensions/localization_extension.dart';
 import 'package:crafty_bay/features/auth/presentation/screens/sign_in_screen.dart';
-import 'package:crafty_bay/features/auth/presentation/screens/sign_up_screen.dart';
 import 'package:crafty_bay/features/auth/presentation/widgets/app_logo.dart';
 import 'package:crafty_bay/features/common/presentation/widgets/language_selector.dart';
 import 'package:crafty_bay/features/common/presentation/widgets/theme_selector.dart';
 import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
+import 'package:pin_code_fields/pin_code_fields.dart';
 
 class VerifyOTPScreen extends StatefulWidget {
   const VerifyOTPScreen({super.key});
@@ -62,15 +62,26 @@ class _VerifyOTPScreenState extends State<VerifyOTPScreen> {
                       style: TextStyle(fontSize: 20, fontWeight: .bold),
                     ),
                     //  Text(context.localizatons.getStarted),
-                    TextFormField(
+                    PinCodeTextField(
+                      length: 4,
+                      obscureText: false,
+                      animationType: AnimationType.fade,
+                      keyboardType: TextInputType.number,
+                      pinTheme: PinTheme(
+                        shape: PinCodeFieldShape.box,
+                        borderRadius: BorderRadius.circular(8),
+                        fieldHeight: 60,
+                        fieldWidth: 55,
+                        fieldOuterPadding: const EdgeInsets.symmetric(horizontal: 4), // Control space between boxes
+                        inactiveColor: Colors.grey.shade300,
+                        selectedColor: Colors.blue,
+                        activeColor: Colors.blue,
+                      ),
+                      mainAxisAlignment: MainAxisAlignment.center, // Centers the group of boxes
+                      animationDuration: const Duration(milliseconds: 300),
+                      backgroundColor: Colors.transparent,
                       controller: _otpController,
-                      decoration: InputDecoration(hintText: 'Enter OTP'),
-                      validator: (String? value) {
-                        if (value?.trim().isEmpty ?? true) {
-                          return 'Enter OTP';
-                        }
-                        return null;
-                      },
+                      appContext: context,
                     ),
                     FilledButton(
                       onPressed: _onTapSignInButton,

@@ -1,8 +1,5 @@
-import 'package:crafty_bay/app/asset_paths.dart';
-import 'package:crafty_bay/features/auth/presentation/screens/sign_up_screen.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_svg/flutter_svg.dart';
-
+import '../../../common/presentation/screens/main_nav_holder_screen.dart';
 import '../widgets/app_logo.dart';
 
 class SplashScreen extends StatefulWidget {
@@ -25,7 +22,7 @@ class _SplashScreenState extends State<SplashScreen> {
     await Future.delayed(Duration(seconds: 3));
     Navigator.pushNamedAndRemoveUntil(
       context,
-      SignUpScreen.name,
+      MainNavHolderScreen.name,
       (route) => false,
     );
   }
@@ -48,5 +45,3 @@ class _SplashScreenState extends State<SplashScreen> {
     );
   }
 }
-
-

@@ -79,5 +79,42 @@
 
   "agreeToTerms": "আমি শর্তাবলীর সাথে একমত",
   "submit": "জমা দিন",
-  "registerNow": "নিবন্ধন করুন"
+  "registerNow": "নিবন্ধন করুন",
+  "searchProduct": "পণ্য খুঁজুন...",
+  "categories": "ক্যাটাগরি",
+  "viewAll": "সব দেখুন",
+  "featuredProducts": "সেরা পণ্যসমূহ",
+  "newArrivals": "নতুন কালেকশন",
+
+  "addToCart": "কার্টে যোগ করুন",
+  "buyNow": "এখনই কিনুন",
+  "outOfStock": "স্টক শেষ",
+  "inStock": "স্টকে আছে",
+  "quantity": "পরিমাণ",
+
+  "cart": "কার্ট",
+  "myCart": "আমার কার্ট",
+  "cartEmpty": "আপনার কার্টটি খালি",
+  "total": "মোট",
+  "subtotal": "সাব-টোটাল",
+  "deliveryFee": "ডেলিভারি চার্জ",
+  "discount": "ডিসকাউন্ট",
+  "checkout": "চেকআউট",
+
+  "shippingAddress": "শিপিং ঠিকানা",
+  "paymentMethod": "পেমেন্ট পদ্ধতি",
+  "cashOnDelivery": "ক্যাশ অন ডেলিভারি",
+  "placeOrder": "অর্ডার সম্পন্ন করুন",
+  "orderSuccess": "অর্ডারটি সফলভাবে সম্পন্ন হয়েছে!",
+  "orderHistory": "অর্ডারের ইতিহাস",
+  "orderDetails": "অর্ডারের বিবরণ",
+  "orderStatus": "অর্ডারের অবস্থা",
+  "trackOrder": "অর্ডার ট্র্যাক করুন",
+
+  "wishlist": "উইশলিস্ট",
+  "rating": "রেটিং",
+  "reviews": "রিভিউ",
+  "applyCoupon": "কুপন ব্যবহার করুন",
+  "couponCode": "কুপন কোড",
+  "invalidCoupon": "অকার্যকর কুপন কোড"
 }

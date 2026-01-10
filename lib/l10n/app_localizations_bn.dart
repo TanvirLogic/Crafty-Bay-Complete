@@ -220,4 +220,103 @@ class AppLocalizationsBn extends AppLocalizations {
 
   @override
   String get registerNow => 'নিবন্ধন করুন';
+
+  @override
+  String get searchProduct => 'পণ্য খুঁজুন...';
+
+  @override
+  String get categories => 'ক্যাটাগরি';
+
+  @override
+  String get viewAll => 'সব দেখুন';
+
+  @override
+  String get featuredProducts => 'সেরা পণ্যসমূহ';
+
+  @override
+  String get newArrivals => 'নতুন কালেকশন';
+
+  @override
+  String get addToCart => 'কার্টে যোগ করুন';
+
+  @override
+  String get buyNow => 'এখনই কিনুন';
+
+  @override
+  String get outOfStock => 'স্টক শেষ';
+
+  @override
+  String get inStock => 'স্টকে আছে';
+
+  @override
+  String get quantity => 'পরিমাণ';
+
+  @override
+  String get cart => 'কার্ট';
+
+  @override
+  String get myCart => 'আমার কার্ট';
+
+  @override
+  String get cartEmpty => 'আপনার কার্টটি খালি';
+
+  @override
+  String get total => 'মোট';
+
+  @override
+  String get subtotal => 'সাব-টোটাল';
+
+  @override
+  String get deliveryFee => 'ডেলিভারি চার্জ';
+
+  @override
+  String get discount => 'ডিসকাউন্ট';
+
+  @override
+  String get checkout => 'চেকআউট';
+
+  @override
+  String get shippingAddress => 'শিপিং ঠিকানা';
+
+  @override
+  String get paymentMethod => 'পেমেন্ট পদ্ধতি';
+
+  @override
+  String get cashOnDelivery => 'ক্যাশ অন ডেলিভারি';
+
+  @override
+  String get placeOrder => 'অর্ডার সম্পন্ন করুন';
+
+  @override
+  String get orderSuccess => 'অর্ডারটি সফলভাবে সম্পন্ন হয়েছে!';
+
+  @override
+  String get orderHistory => 'অর্ডারের ইতিহাস';
+
+  @override
+  String get orderDetails => 'অর্ডারের বিবরণ';
+
+  @override
+  String get orderStatus => 'অর্ডারের অবস্থা';
+
+  @override
+  String get trackOrder => 'অর্ডার ট্র্যাক করুন';
+
+  @override
+  String get wishlist => 'উইশলিস্ট';
+
+  @override
+  String get rating => 'রেটিং';
+
+  @override
+  String get reviews => 'রিভিউ';
+
+  @override
+  String get applyCoupon => 'কুপন ব্যবহার করুন';
+
+  @override
+  String get couponCode => 'কুপন কোড';
+
+  @override
+  String get invalidCoupon => 'অকার্যকর কুপন কোড';
 }

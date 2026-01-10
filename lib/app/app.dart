@@ -2,6 +2,7 @@ import 'package:crafty_bay/app/app_routes.dart';
 import 'package:crafty_bay/app/app_theme.dart';
 import 'package:crafty_bay/app/providers/language_provider.dart';
 import 'package:crafty_bay/app/providers/theme_provider.dart';
+import 'package:crafty_bay/features/auth/presentation/providers/main_nav_container_provider.dart';
 import 'package:crafty_bay/features/auth/presentation/screens/splash_screen.dart';
 import 'package:crafty_bay/l10n/app_localizations.dart';
 import 'package:flutter/material.dart';
@@ -26,29 +27,29 @@ class _CraftyBayState extends State<CraftyBay> {
         ChangeNotifierProvider(
           create: (_) => ThemeProvider()..loadInitialThemeMode(),
         ),
+        ChangeNotifierProvider(create: (context) => MainNavContainerProvider()),
       ],
       child: Consumer<LanguageProvider>(
         builder: (context, languageProvider, child) {
           return Consumer<ThemeProvider>(
-              builder: (context, themeProvider, child) {
-                return MaterialApp(
-
-                  debugShowCheckedModeBanner: false,
-                  initialRoute: SplashScreen.name,
-                  onGenerateRoute: AppRoutes.routes,
-                  theme: AppTheme.lightTheme,
-                  darkTheme: AppTheme.darkTheme,
-                  themeMode: themeProvider.currentThemeMode,
-                  localizationsDelegates: [
-                    AppLocalizations.delegate,
-                    GlobalMaterialLocalizations.delegate,
-                    GlobalWidgetsLocalizations.delegate,
-                    GlobalCupertinoLocalizations.delegate,
-                  ],
-                  supportedLocales: [Locale('en'), Locale('bn'), Locale('de')],
-                  locale: languageProvider.currentLocale,
-                );
-              }
+            builder: (context, themeProvider, child) {
+              return MaterialApp(
+                debugShowCheckedModeBanner: false,
+                initialRoute: SplashScreen.name,
+                onGenerateRoute: AppRoutes.routes,
+                theme: AppTheme.lightTheme,
+                darkTheme: AppTheme.darkTheme,
+                themeMode: themeProvider.currentThemeMode,
+                localizationsDelegates: [
+                  AppLocalizations.delegate,
+                  GlobalMaterialLocalizations.delegate,
+                  GlobalWidgetsLocalizations.delegate,
+                  GlobalCupertinoLocalizations.delegate,
+                ],
+                supportedLocales: [Locale('en'), Locale('bn'), Locale('de')],
+                locale: languageProvider.currentLocale,
+              );
+            },
           );
         },
       ),

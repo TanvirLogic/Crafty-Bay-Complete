@@ -220,4 +220,103 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get registerNow => 'Register Now';
+
+  @override
+  String get searchProduct => 'Search products...';
+
+  @override
+  String get categories => 'Categories';
+
+  @override
+  String get viewAll => 'View All';
+
+  @override
+  String get featuredProducts => 'Featured Products';
+
+  @override
+  String get newArrivals => 'New Arrivals';
+
+  @override
+  String get addToCart => 'Add to Cart';
+
+  @override
+  String get buyNow => 'Buy Now';
+
+  @override
+  String get outOfStock => 'Out of Stock';
+
+  @override
+  String get inStock => 'In Stock';
+
+  @override
+  String get quantity => 'Quantity';
+
+  @override
+  String get cart => 'Cart';
+
+  @override
+  String get myCart => 'My Cart';
+
+  @override
+  String get cartEmpty => 'Your cart is empty';
+
+  @override
+  String get total => 'Total';
+
+  @override
+  String get subtotal => 'Subtotal';
+
+  @override
+  String get deliveryFee => 'Delivery Fee';
+
+  @override
+  String get discount => 'Discount';
+
+  @override
+  String get checkout => 'Checkout';
+
+  @override
+  String get shippingAddress => 'Shipping Address';
+
+  @override
+  String get paymentMethod => 'Payment Method';
+
+  @override
+  String get cashOnDelivery => 'Cash on Delivery';
+
+  @override
+  String get placeOrder => 'Place Order';
+
+  @override
+  String get orderSuccess => 'Order Placed Successfully!';
+
+  @override
+  String get orderHistory => 'Order History';
+
+  @override
+  String get orderDetails => 'Order Details';
+
+  @override
+  String get orderStatus => 'Order Status';
+
+  @override
+  String get trackOrder => 'Track Order';
+
+  @override
+  String get wishlist => 'Wishlist';
+
+  @override
+  String get rating => 'Rating';
+
+  @override
+  String get reviews => 'Reviews';
+
+  @override
+  String get applyCoupon => 'Apply Coupon';
+
+  @override
+  String get couponCode => 'Coupon Code';
+
+  @override
+  String get invalidCoupon => 'Invalid coupon code';
 }

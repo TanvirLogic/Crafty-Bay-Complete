@@ -61,7 +61,7 @@ class _SignInScreenState extends State<SignInScreen> {
                       context.localizatons.login,
                       style: TextStyle(fontSize: 20, fontWeight: .bold),
                     ),
-                   //  Text(context.localizatons.getStarted),
+                    //  Text(context.localizatons.getStarted),
                     TextFormField(
                       controller: _emailController,
                       textInputAction: .next,
@@ -89,6 +89,15 @@ class _SignInScreenState extends State<SignInScreen> {
                         }
                         return null;
                       },
+                    ),
+                    Row(
+                      mainAxisAlignment: .end,
+                      children: [
+                        TextButton(
+                          onPressed: _onTapForgotPassword,
+                          child: Text(context.localizatons.forgotPassword),
+                        ),
+                      ],
                     ),
                     FilledButton(
                       onPressed: _onTapSignInButton,
@@ -118,6 +127,11 @@ class _SignInScreenState extends State<SignInScreen> {
         ),
       ),
     );
+  }
+
+
+  void _onTapForgotPassword(){
+
   }
 
   void _onTapSignInButton() {

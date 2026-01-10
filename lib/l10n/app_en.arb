@@ -77,5 +77,44 @@
 
   "agreeToTerms": "I agree to the Terms and Conditions",
   "submit": "Submit",
-  "registerNow": "Register Now"
+  "registerNow": "Register Now",
+  "searchProduct": "Search products...",
+  "categories": "Categories",
+  "viewAll": "View All",
+  "featuredProducts": "Featured Products",
+  "newArrivals": "New Arrivals",
+
+  "addToCart": "Add to Cart",
+  "buyNow": "Buy Now",
+  "outOfStock": "Out of Stock",
+  "inStock": "In Stock",
+  "quantity": "Quantity",
+
+  "cart": "Cart",
+  "myCart": "My Cart",
+  "cartEmpty": "Your cart is empty",
+  "total": "Total",
+  "subtotal": "Subtotal",
+  "deliveryFee": "Delivery Fee",
+  "discount": "Discount",
+  "checkout": "Checkout",
+
+  "shippingAddress": "Shipping Address",
+  "paymentMethod": "Payment Method",
+  "cashOnDelivery": "Cash on Delivery",
+  "placeOrder": "Place Order",
+  "orderSuccess": "Order Placed Successfully!",
+  "orderHistory": "Order History",
+  "orderDetails": "Order Details",
+  "orderStatus": "Order Status",
+  "trackOrder": "Track Order",
+
+  "wishlist": "Wishlist",
+  "rating": "Rating",
+  "reviews": "Reviews",
+  "applyCoupon": "Apply Coupon",
+  "couponCode": "Coupon Code",
+  "invalidCoupon": "Invalid coupon code"
+
+
 }
