@@ -98,6 +98,9 @@
   "deliveryFee": "Delivery Fee",
   "discount": "Discount",
   "checkout": "Checkout",
+  "seeAll" : "See All",
+  "popular" : "Popular",
+  "special" : "Special",
 
   "shippingAddress": "Shipping Address",
   "paymentMethod": "Payment Method",

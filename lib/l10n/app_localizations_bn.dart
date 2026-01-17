@@ -276,6 +276,15 @@ class AppLocalizationsBn extends AppLocalizations {
   String get checkout => 'চেকআউট';
 
   @override
+  String get seeAll => 'সব দেখুন';
+
+  @override
+  String get popular => 'পপুলার';
+
+  @override
+  String get special => 'স্পেশাল';
+
+  @override
   String get shippingAddress => 'শিপিং ঠিকানা';
 
   @override

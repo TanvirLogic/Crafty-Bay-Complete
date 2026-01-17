@@ -276,6 +276,15 @@ class AppLocalizationsEn extends AppLocalizations {
   String get checkout => 'Checkout';
 
   @override
+  String get seeAll => 'See All';
+
+  @override
+  String get popular => 'Popular';
+
+  @override
+  String get special => 'Special';
+
+  @override
   String get shippingAddress => 'Shipping Address';
 
   @override

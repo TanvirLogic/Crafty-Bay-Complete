@@ -1,9 +1,11 @@
 import 'package:crafty_bay/app/app_colors.dart';
 import 'package:crafty_bay/app/extensions/localization_extension.dart';
-import 'package:crafty_bay/features/auth/presentation/providers/main_nav_container_provider.dart';
+import 'package:crafty_bay/features/category/presentation/screens/category_list_screen.dart';
 import 'package:crafty_bay/features/home/presentation/screens/home_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
+
+import '../providers/main_nav_container_provider.dart';
 
 class MainNavHolderScreen extends StatefulWidget {
   const MainNavHolderScreen({super.key});
@@ -15,7 +17,7 @@ class MainNavHolderScreen extends StatefulWidget {
 class _MainNavHolderScreenState extends State<MainNavHolderScreen> {
   final List<Widget> _screens = [
     HomeScreen(),
-    HomeScreen(),
+    CategoryListScreen(),
     HomeScreen(),
     HomeScreen(),
   ];
@@ -39,7 +41,7 @@ class _MainNavHolderScreenState extends State<MainNavHolderScreen> {
               ),
               BottomNavigationBarItem(
                 icon: Icon(Icons.dashboard_customize),
-                label: context.localizatons.dashboard,
+                label: context.localizatons.categories,
               ),
               BottomNavigationBarItem(
                 icon: Icon(Icons.shopping_cart),

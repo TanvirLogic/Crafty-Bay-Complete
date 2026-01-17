@@ -100,6 +100,9 @@
   "deliveryFee": "ডেলিভারি চার্জ",
   "discount": "ডিসকাউন্ট",
   "checkout": "চেকআউট",
+  "seeAll" : "সব দেখুন",
+  "popular" : "পপুলার",
+  "special" : "স্পেশাল",
 
   "shippingAddress": "শিপিং ঠিকানা",
   "paymentMethod": "পেমেন্ট পদ্ধতি",

@@ -629,6 +629,24 @@ abstract class AppLocalizations {
   /// **'Checkout'**
   String get checkout;
 
+  /// No description provided for @seeAll.
+  ///
+  /// In en, this message translates to:
+  /// **'See All'**
+  String get seeAll;
+
+  /// No description provided for @popular.
+  ///
+  /// In en, this message translates to:
+  /// **'Popular'**
+  String get popular;
+
+  /// No description provided for @special.
+  ///
+  /// In en, this message translates to:
+  /// **'Special'**
+  String get special;
+
   /// No description provided for @shippingAddress.
   ///
   /// In en, this message translates to:

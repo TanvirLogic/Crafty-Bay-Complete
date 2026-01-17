@@ -19,7 +19,7 @@ class _HomeCarouselSliderState extends State<HomeCarouselSlider> {
       children: [
         CarouselSlider(
           options: CarouselOptions(
-            autoPlay: true,
+            autoPlay: false,
             height: 200.0,
             viewportFraction: 1,
             onPageChanged: (index, reason) {
