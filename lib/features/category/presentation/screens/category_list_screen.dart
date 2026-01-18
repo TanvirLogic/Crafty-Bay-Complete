@@ -36,6 +36,7 @@ class _CategoryListScreenState extends State<CategoryListScreen> {
             gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
               crossAxisCount: 4,
               mainAxisSpacing: 10,
+              crossAxisSpacing: 10,
             ),
             itemCount: 10,
             itemBuilder: (context, index) => CategoryCard(),
